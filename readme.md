@@ -272,6 +272,20 @@ Variable interpolation
 
 	user := 'John'
 	"Grettings #{user}"
+	
+Chains
+-------
+
+	car.start()
+	..accelerate()
+	..brake()
+	
+Modules
+-------
+
+	Modules always exports only one value
+	
+	foo := require('foo')
 
 Comments
 -------
